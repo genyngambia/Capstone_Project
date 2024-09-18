@@ -66,7 +66,6 @@ Multiple machine learning models were implemented, including:
 - `Decision Trees`
 - `Support Vector Machines (SVM)`
 - `K-Nearest Neighbors (KNN)`
-- `Linear Regression`
 
 Each model was evaluated for `accuracy`, `precision`, `recall`, and `F1-score`. Additionally, a tuned `Decision Tree` was trained using `GridSearchCV` to optimize hyperparameters.
 
