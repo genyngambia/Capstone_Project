@@ -44,6 +44,18 @@ The objective of this analysis is to predict obesity levels among adults in the 
 - **Obesity by Income**: Obesity rates are inversely related to income, with lower-income groups showing higher rates. Higher income levels correlate with lower obesity rates.
 - **Obesity by Race/Ethnicity**: Obesity rates vary across groups, with Non-Hispanic Black and American Indian/Alaska Native groups having higher median rates, while Asian individuals have the lowest. Other groups show moderate variability.
 
+<p float="left">
+  <img src="https://github.com/genyngambia/Capstone_Project/blob/capstone_project/Capstone_Project/images/obesity_by_age.png" width="300" />
+  <img src="https://github.com/genyngambia/Capstone_Project/blob/capstone_project/Capstone_Project/images/obesity_by_education.png" width="300" /> 
+  <img src="https://github.com/genyngambia/Capstone_Project/blob/capstone_project/Capstone_Project/images/obesity_by_gender.png" width="300" />
+</p>
+
+<p float="left">
+  <img src="https://github.com/genyngambia/Capstone_Project/blob/capstone_project/Capstone_Project/images/obesity_by_income.png" width="300" />
+  <img src="https://github.com/genyngambia/Capstone_Project/blob/capstone_project/Capstone_Project/images/obesity_by_race_ethnicity.png" width="300" />
+</p>
+
+
 ---
 
 ## 5. Modeling
