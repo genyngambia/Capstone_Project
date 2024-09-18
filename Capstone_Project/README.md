@@ -6,7 +6,7 @@
 The objective of this analysis is to predict obesity levels among adults in the United States based on demographic and lifestyle factors. By understanding how variables such as age, education, income, gender, and location contribute to obesity, we can better target public health campaigns toward high-risk groups, improving health outcomes and resource allocation.
 
 ### Key Business Questions:
-- How do demographic and lifestyle factors (e.g., age, gender, education, income, race/ethnicity) predict obesity rates among adults in the U.S.?
+- How do demographic (e.g., age, gender, education, income, race/ethnicity) predict obesity rates among adults in the U.S.?
 
 ### Business Impact:
 - These predictors help public health organizations in formulating obesity-related policies, leading to better health outcomes and reduced healthcare costs.
