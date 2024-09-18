@@ -63,6 +63,7 @@ The comparison of each machine learning technique is based on accuracy, precisio
 
 ### Feature Importance Visualization:
 A key comparison was made between the default decision tree and the tuned decision tree model. The feature importance before and after tuning is displayed in a bar chart.
+![Model Performance Comparison](https://github.com/genyngambia/Capstone_Project/blob/capstone_project/Capstone_Project/images/model_performance_comparison.png)
 
 ---
 
