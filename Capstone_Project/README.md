@@ -79,7 +79,8 @@ Here is a summary of the key performance metrics across all models:
 
 The image below provides a visual comparison of model performance across Accuracy, Precision, Recall, and F1-Score:
 
-![Model Comparison: Accuracy, Precision, Recall, and F1-Score](http://localhost:8888/doc/tree/code/code_pract_assign_17_/images/model_comparison_with_xgboost.png)
+![Model Comparison: Accuracy, Precision, Recall, and F1-Score](https://github.com/genyngambia/Capstone_Project/blob/capstone_project/Capstone_Project/images/model_comparison_with_xgboost.png)
+
 
 The Random Forest model outperformed the others with the highest accuracy and well-balanced metrics, making it the top candidate for predicting obesity.
 
