@@ -6,7 +6,7 @@ Obesity Prediction Using Demographic and Lifestyle Factors
 ## Executive Summary
 This project aims to predict obesity levels among adults in the United States using demographic and lifestyle factors like age, education, income, gender, and location. Leveraging machine learning, it provides insights to help public health organizations target high-risk groups and improve health outcomes.
 
-According to recent data, nearly 1 in 3 adults (30.7%) in the U.S. are overweight, while more than 2 in 5 (42.4%) have obesity, including 9.2% who suffer from severe obesity. The prevalence of obesity and related conditions, such as diabetes and heart disease, continues to strain healthcare systems ([NIDDK Obesity Statistics](https://www.niddk.nih.gov/health-information/health-statistics/overweight-obesity#:~:text=the%20above%20table-,Nearly%201%20in%203%20adults%20(30.7%25)%20are%20overweight.,9.2%25)%20have%20severe%20obesity.)).
+According to recent data, nearly 1 in 3 adults (30.7%) in the U.S. are overweight, while more than 2 in 5 (42.4%) have obesity, including 9.2% who suffer from severe obesity. The prevalence of obesity and related conditions, such as diabetes and heart disease, continues to strain healthcare systems ([NIDDK Obesity Statistics](https://www.niddk.nih.gov/health-information/health-statistics/overweight-obesity#:~:text=the%20above%20table-,Nearly%201%20in%203%20adults%20(30.7%25)%20are%20overweight.,9.2%25))).
 
 
 #### Rationale
