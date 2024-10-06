@@ -3,9 +3,11 @@ Obesity Prediction Using Demographic and Lifestyle Factors
 
 **Author** Genevieve Ngambia
 
-#### Executive summary
-This project aims to predict obesity levels among adults in the United States using demographic and lifestyle factors such as age, education, income, gender, and location. 
-By leveraging machine learning models, this project seeks to provide actionable insights for public health organizations to better target high-risk groups, ultimately improving health outcomes and reducing healthcare costs.
+## Executive Summary
+This project aims to predict obesity levels among adults in the United States using demographic and lifestyle factors like age, education, income, gender, and location. Leveraging machine learning, it provides insights to help public health organizations target high-risk groups and improve health outcomes.
+
+According to recent data, nearly 1 in 3 adults (30.7%) in the U.S. are overweight, while more than 2 in 5 (42.4%) have obesity, including 9.2% who suffer from severe obesity. The prevalence of obesity and related conditions, such as diabetes and heart disease, continues to strain healthcare systems ([NIDDK Obesity Statistics](https://www.niddk.nih.gov/health-information/health-statistics/overweight-obesity#:~:text=the%20above%20table-,Nearly%201%20in%203%20adults%20(30.7%25)%20are%20overweight.,9.2%25)%20have%20severe%20obesity.)).
+
 
 #### Rationale
 Obesity is a significant public health concern, contributing to numerous chronic conditions such as diabetes, heart disease, and hypertension. 
