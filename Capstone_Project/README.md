@@ -3,39 +3,38 @@ Obesity Prediction Using Demographic and Lifestyle Factors
 
 **Author** Genevieve Ngambia
 
-## Executive Summary
+### Executive Summary
 This project aims to predict obesity levels among adults in the United States using demographic and lifestyle factors like age, education, income, gender, and location. Leveraging machine learning, it provides insights to help public health organizations target high-risk groups and improve health outcomes.
 
 According to recent data, nearly 1 in 3 adults (30.7%) in the U.S. are overweight, while more than 2 in 5 (42.4%) have obesity, including 9.2% who suffer from severe obesity. The prevalence of obesity and related conditions, such as diabetes and heart disease, continues to strain healthcare systems ([NIDDK Obesity Statistics](https://www.niddk.nih.gov/health-information/health-statistics/overweight-obesity#:~:text=the%20above%20table-,Nearly%201%20in%203%20adults%20(30.7%25)%20are%20overweight.,9.2%25))).
 
 
-#### Rationale
+### Rationale
 Obesity is a significant public health concern, contributing to numerous chronic conditions such as diabetes, heart disease, and hypertension. 
 Understanding the factors that contribute to obesity can enable policymakers and public health officials to design targeted interventions that improve health outcomes and reduce healthcare costs. 
 By predicting obesity risk based on demographic and lifestyle factors, we can better direct public health resources to those who need them most.
 
-#### Research Question
+### Research Question
 How do demographic and lifestyle factors, including age, education, income, gender, and location, predict obesity rates among adults in the United States?
 
-#### Data Sources
+### Data Sources
 - **Source**: Behavioral Risk Factor Surveillance System (BRFSS) dataset.
 - **Features**: `Age`, `Gender`, `Education`, `Income`, `Race/Ethnicity`, `Location`, and obesity-related measurements (`Data_Value`).
 - **Target**: A binary target variable `Obese` (1 for obese if `Data_Value >= 30`, otherwise 0).
 
 
-#### Methodology
-### Data Cleaning:
+### Methodology
+#### Data Cleaning:
 - **Handling Missing Values**: Rows with missing target values (`Data_Value`) were removed. Missing values in categorical variables such as `Age(years)`, `Education`, `Income`, and `Gender` were filled using the mode.
 - **Filtering for Obesity-Related Data**: Only records where the `Class` was related to "Obesity / Weight Status" were retained, resulting in 36,234 records after cleaning.
 - **Feature Engineering**: Created a binary target variable, `Obese`, where individuals with `Data_Value >= 30` were labeled as obese (1), and others as non-obese (0).
 - **Distribution**: Obese (1): 23,187 instances (approx. 70%). Non-Obese (0): 9,493 instances (approx. 30%).
 This class imbalance is addressed using SMOTE (Synthetic Minority Over-sampling Technique) to improve model performance and ensure the model doesn't overly favor the majority class.
 
-### Feature Encoding:
+#### Feature Encoding:
 - Categorical variables (`Age(years)`, `Education`, `Gender`, `Income`, `Race/Ethnicity`, and `LocationDesc`) were label-encoded for use in machine learning models.
 
-
-### Exploratory Data Analysis (EDA):
+#### Exploratory Data Analysis (EDA):
 
 - **Obesity by Age**: Obesity increases with age, peaking between 45 and 64. Younger age groups have lower median obesity rates, with a few outliers.
 - **Obesity by Education**: Higher education is linked to lower obesity rates, especially among college graduates, suggesting education influences healthier lifestyle choices.
