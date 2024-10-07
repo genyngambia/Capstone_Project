@@ -103,7 +103,7 @@ Based on the performance metrics, we selected **Random Forest** as the final mod
 In conclusion, **Random Forest** emerged as the best model for obesity prediction due to its superior performance and its ability to drive future public health interventions aimed at reducing obesity.
 
 
-#### Results
+### Results
 
 1. **Customizing Health Policies for High-Risk Locations**  
    - **Key Finding**: LocationDesc was the most important factor in the Random Forest model (importance score: 0.57). The EDA revealed significant variation in obesity rates across geographic regions, with areas like Guam, Puerto Rico, and Mississippi showing higher median obesity rates, while the District of Columbia and Colorado exhibited lower rates.
