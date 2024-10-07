@@ -153,7 +153,7 @@ In conclusion, **Random Forest** emerged as the best model for obesity predictio
 
 #### Outline of project
 
-- [Link to notebook 1]()
+- [Capstone Project - Revised Notebook](https://github.com/genyngambia/Capstone_Project/blob/capstone_project/Capstone_Project/capstone-revised.ipynb)
 
 
 ##### Contact and Further Information
